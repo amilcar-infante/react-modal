@@ -20,20 +20,28 @@ tags on your index.html:
 ```
 and you can override in your css the following rules:
 
+## Configuration 
+
+- This component has a required property 'display' used to show/hide the modal 
+
 - To configure the modal-dialog width and height:
 
+```css
 .react-modal .modal-dialog {
     width: 50%;
     height: 50%;
 }
+```
 
 Note: we are using 50% just as an example.
 
 - To remove the backround opacity:
 
+```css
 .react-modal {
     background-color: transparent;
 }
+```
 
 ## Example
 
