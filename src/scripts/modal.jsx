@@ -10,11 +10,12 @@ module.exports = React.createClass({
     render: function() {
         var modal;
         if( this.props.display ){
-            modal = <div className='react-modal'>
-                        <div className="modal-dialog">
-                            {this.props.children}
-                        </div>
-                    </div>;
+            modal = 
+                <div className='react-modal'>
+                    <div className="modal-dialog">
+                        {this.props.children}
+                    </div>
+                </div>;
         }
         return (
             <ReactCSSTransitionGroup
