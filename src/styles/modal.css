@@ -1,0 +1,39 @@
+.react-modal {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.react-modal .modal-dialog {
+    max-width: 90%;
+    position: absolute;
+    max-height: 90%;
+    margin: auto;
+    background-color: #ffffff;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 5;
+    border: 1px solid black;
+}
+
+.modalTransition-enter {
+    opacity: 0.01;
+    transition: opacity .5s ease-in;
+}
+
+.modalTransition-enter.modalTransition-enter-active {
+    opacity: 0.8;
+}
+
+.modalTransition-leave {
+    opacity: 0.8;
+    transition: all .5s ease-in;
+}
+
+.modalTransition-leave.modalTransition-leave-active {
+    opacity: 0.01;
+}
