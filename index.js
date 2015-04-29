@@ -1,1 +1,1 @@
-module.exports = require('./src/scripts/components/modal.jsx');
+module.exports = require('./src/scripts/modal.jsx');
